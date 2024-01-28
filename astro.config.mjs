@@ -6,6 +6,6 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://thattejada.github.io',
-	// base: '',
+	base: '/',
 	integrations: [mdx(), sitemap()],
 });
